@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.container {
+  /* height: 600px; */
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border: 2px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+caption {
+  padding: 10px;
+  background-color: teal;
+  color: white;
+}
+tbody {
+  /* display: block; */
+}
+.name {
+  font-weight: bold;
+  background-color: rgb(201, 196, 196);
+}
+tr {
+  border-bottom: 1px solid gray;
+}
+tr:hover {
+  background-color: rgb(243, 242, 242);
+}
+.status {
+  color: green;
+}
+td,
+th {
+  padding: 10px;
+}
+i {
+  padding: 0px 5px;
+  color: rgb(175, 163, 163);
+}
+.fa-pen:hover {
+  color: teal;
+}
+.fa-trash:hover {
+  color: red;
+}
